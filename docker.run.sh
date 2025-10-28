@@ -1,9 +1,3 @@
-FROM node:latest
-WORKDIR /tests
-
-# Prevent the browser from opening
-ENV PW_TEST_HTML_REPORT_OPEN='never'
-
 #Clone the run script
 RUN git clone https://github.com/mwaqasahmad1986/testProjectWaqas.git /run-dir
 

@@ -1,5 +1,5 @@
 #Clone the run script
-RUN git clone https://github.com/mwaqasahmad1986/testProjectWaqas.git /run-dir
+git clone https://github.com/mwaqasahmad1986/testProjectWaqas.git /run-dir
 
 cd /run-dir
 

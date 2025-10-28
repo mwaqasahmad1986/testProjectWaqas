@@ -3,16 +3,16 @@ import { exception } from 'console';
 //import test from "../lambdatest-setup";
 
 
-// test('iframe page.Framelocator', async({page}) =>{
-//   await page.goto("https://www.letskodeit.com/practice")
+test('iframe page.Framelocator', async({page}) =>{
+  await page.goto("https://www.letskodeit.com/practice")
 
-//   const iframe = page.frameLocator('#courses-iframe');
+  const iframe = page.frameLocator('#courses-iframe');
 
-//   await iframe.locator('//a[@href="/home"]').click()
-//   await page.pause()
+  await iframe.locator('//a[@href="/home"]').click()
+  await page.pause()
 
 
-// })
+})
 
 
 test('iframe page.frame', async({page}) =>{
